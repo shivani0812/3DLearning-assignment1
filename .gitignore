@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.pth
+output1
+output (copy)
+ssivaku3_code_proj1
+ssivaku3_code_proj1.zip
