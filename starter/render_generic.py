@@ -116,7 +116,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("--output_path", type=str, default="images/bridge.jpg")
     parser.add_argument("--image_size", type=int, default=256)
-    parser.add_argument("--num_samples", type=int, default=100)
+    parser.add_argument("--num_samples", type=int, default=1000)
     args = parser.parse_args()
     if args.render == "point_cloud":
         image = render_bridge(image_size=args.image_size)
